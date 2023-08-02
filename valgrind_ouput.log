@@ -1,7 +1,7 @@
 ==22767== Memcheck, a memory error detector
 ==22767== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
 ==22767== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==22767== Command: ./main1
+==22767== Command: ./main
 ==22767== Parent PID: 20823
 ==22767== 
 ==22767== 
