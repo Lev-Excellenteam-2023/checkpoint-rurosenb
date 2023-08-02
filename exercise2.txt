@@ -1,0 +1,78 @@
+Task 2: Creating a Basic Kernel Module
+Practice:
+● Create a simple "Hello, World!" kernel module.
+○ Your module should print "Hello, World!" when it's
+loaded, and "Goodbye, World!" when it's unloaded.
+● Include detailed comments explaining each line of your code.
+● After you've written your module, compile and load it into
+your kernel, then unload it.
+Assignment: Creating Kernel Modules and Kernel Modules for
+Netfilter
+This assignment has been designed to gradually introduce you to the
+concept of Linux kernel modules, from the basics to more advanced
+topics like creating modules for the Netfilter subsystem. The assignment
+is structured in three parts: easy, intermediate, and hard.
+For each assignment, Submit:
+1. Your source code
+2. Makefile.
+3. A screenshot or text capture of your terminal showing the print
+messages.
+Part 1: Easy
+Task 1: Introduction to Kernel Modules
+Research and Write:
+● Explain what a kernel module is.
+● What are the advantages and disadvantages of using kernel
+modules?
+● Explain the relationship between the kernel and a kernel
+module.
+● List some examples of real-world kernel modules.
+Task 2: Creating a Basic Kernel Module
+Practice:
+● Create a simple "Hello, World!" kernel module.
+○ Your module should print "Hello, World!" when it's
+loaded, and "Goodbye, World!" when it's unloaded.
+● Include detailed comments explaining each line of your code.
+● After you've written your module, compile and load it into
+your kernel, then unload it.
+Part 2: Intermediate
+Task 3: Kernel Module with Parameters
+Extend:
+● Modify your "Hello, World!" module so that it accepts an input
+parameter. This parameter should be a string, which
+replaces the "World" in your print messages.
+● If no parameter is given, your module should default to
+"World".
+Task 4: Introduction to Netfilter
+Research and Write:
+● What is netfilter in the context of the Linux kernel?
+● Explain the role of netfilter hooks and list the available types.
+● How is Netfilter useful in the development of firewalls and
+packet filtering?
+Task 2: Creating a Basic Kernel Module
+Practice:
+● Create a simple "Hello, World!" kernel module.
+○ Your module should print "Hello, World!" when it's
+loaded, and "Goodbye, World!" when it's unloaded.
+● Include detailed comments explaining each line of your code.
+● After you've written your module, compile and load it into
+your kernel, then unload it.
+Part 3: Hard
+Task 5: Kernel Module for Netfilter
+Develop:
+● Develop a kernel module that utilizes a netfilter hook.
+● Your module should monitor incoming network traffic and log
+information about each packet it sees. At a minimum, it
+should log the source and destination IP addresses.
+● Your code should be properly commented on, explaining the
+role of each function and important variable.
+● Compile, load, and unload your module, providing
+screenshots or text captures of the log messages it
+generates.
+Task 6: Advanced Netfilter Module
+Challenge:
+● Extend your netfilter module to filter packets based on a
+specific IP address. This IP should be passed as a
+parameter when loading the module.
+● If a packet's source or destination IP matches the one
+passed as a parameter, your module should drop the packet
+and log a message saying that it did so.
